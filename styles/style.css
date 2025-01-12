@@ -16,6 +16,7 @@ nav ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 38px 150px;
 }
 nav ul li {
     list-style: none;
@@ -33,4 +34,12 @@ nav ul li button {
     background-color: white;
 }
 
+/* Banner Model */
+.banner {
+    background-image: url("../assets/Hero-bg.png");
+}
+.banner-model {
+    padding: 26px 251px;
+    text-align: center;
+}
 /* Shared link */
