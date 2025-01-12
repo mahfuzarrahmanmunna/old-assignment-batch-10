@@ -178,3 +178,44 @@ nav ul li button {
     gap: 24px;
     margin-bottom: 24px;
 }
+
+/* Support section Style */
+.support {
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 64px 48px;
+}
+.support-header {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+.submit {
+    text-align: center;
+}
+.submit-btn {
+    border-radius: 8px;
+    padding: 17px 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+#first-inp {
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    padding: 20px;
+    width: 50%;
+}
+#first-inp::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+}
+.supp-desc {
+    color: white;
+}
