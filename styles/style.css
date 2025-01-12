@@ -1,4 +1,36 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font style */
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: rgba(13, 19, 33, 1);
+
+}
+/* Nav Styles */
 nav ul{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
+nav ul li {
+    list-style: none;
+}
+nav ul li .name{
+    font-weight: 800;
+    font-size: 28px;
+}
+nav ul li button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    border: 0.15px solid rgba(13, 19, 33, 1);
+    border-radius: 8px;
+    background-color: white;
+}
+
+/* Shared link */
