@@ -113,3 +113,24 @@ nav ul li button {
     font-weight: 600;
     font-size: 20px;
 }
+
+/* Inspire style */
+.inspire{
+    background-color: rgba(228, 228, 230, 0.2);
+}
+.inspire-header{
+    padding: 0 144px 124px 144px;
+}
+
+.chalange{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+    margin-top: 48px;
+}
+.chalange img{
+    max-width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+    margin: 32px;
+}
