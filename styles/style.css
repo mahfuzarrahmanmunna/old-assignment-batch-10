@@ -14,7 +14,7 @@
 /* Nav Styles */
 nav ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 38px 150px;
 }
@@ -32,14 +32,84 @@ nav ul li button {
     border: 0.15px solid rgba(13, 19, 33, 1);
     border-radius: 8px;
     background-color: white;
+    cursor: pointer;
 }
 
 /* Banner Model */
 .banner {
     background-image: url("../assets/Hero-bg.png");
+    padding: 26px;
 }
 .banner-model {
-    padding: 26px 251px;
+    max-width: 998px;
+    margin: 26px auto;
     text-align: center;
 }
+.contact {
+    padding: 21px 24px;
+    color: #ffffff;
+    background-color: rgba(13, 19, 33, 1);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
 /* Shared link */
+.primary-desc {
+    font-size: 16px;
+    font-weight: 400;
+}
+.primary-header {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.primary-hover:hover {
+    color: darkblue;
+    background-color: #808080;
+    box-shadow: 3px 12px 10px 10px #221b1b ;
+    cursor: pointer;
+}
+.primary-active:active {
+    color: #e43434bd;
+    background-color: rgb(12, 12, 31);
+    box-shadow: 3px 12px 10px 10px #413333 ;
+    cursor: pointer;
+}
+.primary-center {
+    text-align: center;
+}
+
+/* main section style start here */
+.display-width {
+    max-width: 1140px;
+    margin: 84px auto;
+}
+.why-web {
+    background-color: rgb(243, 240, 236);
+    border-radius: 16px;
+    padding: 80px 97px;
+}
+.descript {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    gap: 99px;
+    background-color: aliceblue;
+    margin: 32px;
+    border-radius: 16px;
+}
+.desc-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+}
+.desc-btn {
+    padding: 12px 20px;
+    border: 1px solid gray;
+    font-weight: 600;
+    font-size: 20px;
+}
