@@ -134,3 +134,34 @@ nav ul li button {
     border-radius: 16px;
     margin: 32px;
 }
+/* Target Section Style */
+.target {
+    margin-top: 151px;
+}
+
+/* Language Description Style*/
+.coding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 111px;
+}
+.language {
+    padding: 40px;
+    border-radius: 16px;
+}
+.first-clr {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.second-clr {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.third-clr {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.anchor-clr {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 1);
+}
