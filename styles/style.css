@@ -165,3 +165,16 @@ nav ul li button {
     font-weight: bold;
     color: rgba(13, 19, 33, 1);
 }
+.next-target-header {
+    margin-bottom: 48px;
+}
+.frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    gap: 24px;
+    margin-bottom: 24px;
+}
